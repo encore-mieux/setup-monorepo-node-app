@@ -19,7 +19,7 @@ runs:
   steps:
     - shell: bash
       run: echo "🤙 Sparse checkout ${{inputs.working-directory}}"
-    - uses: gogaille/sparse-checkout@v0.1
+    - uses: encore-mieux/sparse-checkout@v0.4
       with:
         patterns: ${{inputs.working-directory}} ${{inputs.other-patterns-to-sparse-checkout}}
     - shell: bash

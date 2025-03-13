@@ -18,14 +18,14 @@ Setup a node app in a monorepo:
 ## Example usage
 
 ```yaml
-- uses: gogaille/setup-monorepo-node-app
+- uses: encore-mieux/setup-monorepo-node-app
   with:
     node-version: 20
     working-directory: some-node-app-dir
 ```
 
 ```yaml
-- uses: gogaille/setup-monorepo-node-app
+- uses: encore-mieux/setup-monorepo-node-app
   with:
     node-version: 20
     working-directory: some-node-app-dir
